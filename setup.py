@@ -8,7 +8,6 @@ setup(
         "Django>=4.0",
         "djangorestframework",
         "gunicorn",
-        "psycopg2",
         "numpy",
         "pandas",
         "scikit-learn",

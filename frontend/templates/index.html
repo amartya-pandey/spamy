@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spam Email Classifier</title>
-    <link rel="stylesheet" href="static/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container">
-        <h2>Spam Email Classifier</h2>
-        <textarea id="emailText" placeholder="Enter email text here..."></textarea>
-        <button onclick="classifyEmail()">Classify</button>
-        <p id="result"></p>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <div class="bg-white p-10 rounded-xl shadow-xl w-full max-w-2xl border border-gray-200">
+        <h2 class="text-3xl font-semibold text-gray-900 mb-6 text-center">Spam Email Classifier</h2>
+        <textarea id="emailText" placeholder="Enter email text here..." 
+            class="w-full p-4 border border-gray-300 rounded-md text-gray-700 text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition">
+        </textarea>
+        <button onclick="classifyEmail()" 
+            class="w-full mt-6 bg-blue-600 text-white py-3 px-6 rounded-md font-medium text-lg hover:bg-blue-700 transition-all duration-300 shadow-md">
+            Classify
+        </button>
+        <p id="result" class="mt-6 text-xl font-semibold text-gray-800 text-center"></p>
     </div>
     <script src="static/js/script.js"></script>
 </body>
