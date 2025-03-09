@@ -1,0 +1,10 @@
+python==3.12.9
+Django>=4.0
+djangorestframework
+gunicorn
+numpy
+pandas
+scikit-learn
+gensim
+joblib
+django-cors-headers
