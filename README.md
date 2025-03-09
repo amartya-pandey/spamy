@@ -155,7 +155,7 @@ spam_classifier_manage runserver
 
 ## 📸 Screenshots
 
-![screenshot](image.png)
+![screenshot](frontend/static/image.png)
 ---
 
 ## 📄 License
