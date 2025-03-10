@@ -161,3 +161,6 @@ spam_classifier_manage runserver
 ## 📄 License
 
 This project is open source under MIT License.
+
+## Note
+The comments in code are AI generated.
